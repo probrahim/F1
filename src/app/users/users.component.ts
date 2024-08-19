@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent {
-
+  title = 'Users Component';
+  zzz:number = 3;
+  affiche():void{
+    console.log("Bonjour");
+  }
 }

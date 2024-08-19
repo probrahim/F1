@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { TestComponent } from './test/test.component';
+import { ColorDirective } from './color.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
-    TestComponent
+    TestComponent,
+    ColorDirective
   ],
   imports: [
     BrowserModule,
@@ -20,4 +22,5 @@ import { TestComponent } from './test/test.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ }
